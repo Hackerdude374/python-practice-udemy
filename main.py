@@ -53,3 +53,18 @@ print (first * 10)
 #slicing (each character has an index)
 sent = "bozo"
 print (sent[0])
+
+#place holders in strings
+name3 = "jake"
+sentence3 = "%s is %d years old"
+
+#print (sentence3 % name3) #%s = string
+
+print(sentence3 % ("avi", 23))
+
+#f''
+name = "Avi"
+print (f"Hello, {name3}")
+x = 1
+y = 2
+print (f"sum of x and y is {x+y}")
